@@ -1,0 +1,98 @@
+.about-section{
+    padding-top: 2rem;
+}
+.about-left{
+    width: 100%;
+    
+}
+.about-left h2{
+    color: #28e98c;
+}
+.about-left h2 , .about-right h2{
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    padding-bottom: 0.5rem;
+}
+
+.about-left p{
+    word-spacing: 2px;
+    opacity: 0.9;
+}
+
+.about-right h2{
+    font-size: 2rem;
+    padding-top: 1rem;
+    font-weight: 500;
+}
+
+.detail-list{
+    color: #28e98c;
+    text-transform: uppercase;
+}
+
+.li-detail li{
+    padding-bottom: 0.3rem;
+}
+
+@media (min-width: 768px) {
+    .about-section{
+        height: 89vh;     
+    }
+
+    .about-left{
+        width: 50%;
+    }
+    .about-right{
+        width: 50%;
+        padding-top: 3rem;
+        padding-left: 4rem;
+    }
+}
+
+@media (min-width:1024px){
+    .about-section{
+        height: 90.5vh;
+    }
+    .about-left h2 , .about-right h2{
+        font-size: 3.5rem;
+    }
+    .about-right h2{
+        font-size: 2.5rem;
+    }
+    .about-right{
+        padding-top: 1rem;
+        padding-left: 6rem;
+    }
+
+    .about-left p{
+        font-size: 1.1rem;
+    }
+    .detail-list{
+        font-size: 1.2rem;
+    }
+    .li-detail li{
+        font-size: 1rem;
+    }
+}
+
+@media (min-width:1440px){
+    .about-section{
+        height: 88.3vh;
+    }
+    .about-left h2 , .about-right h2{
+        font-size: 4rem;
+    }
+    .about-right h2{
+        font-size: 3rem;
+    }
+    .about-left p{
+        font-size: 1.2rem;
+    }
+    .li-detail li{
+        font-size: 1.1rem;
+    }
+    .about-right{
+        padding-left: 8rem;
+    }
+}

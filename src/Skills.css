@@ -1,0 +1,62 @@
+
+.skill-section h2{
+    color: #28e98c;
+    padding-top: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    padding-bottom: 1rem;
+}
+
+.img-container{
+    border: 1px solid #28e98c;
+    border-radius: 1rem;
+    position: relative;
+}
+
+.img-container div{
+    padding: 1rem;
+    aspect-ratio: 3/2;
+}
+
+.img-container div img{
+    object-fit: contain;
+}
+
+@media (min-width:768px){
+    .img-container{
+        width: 9.5rem;
+    }
+    .skill-box{
+        display: flex;
+        justify-content: center;
+    }
+    .skill-section h2{
+        padding-left: 2rem;
+        padding-top: 4rem;
+        padding-bottom: 1rem;
+    }
+}
+
+@media (min-width:992px){
+    .skill-section{
+        height: 90.5vh;
+    }
+    .skill-section h2{
+        font-size: 2.5rem;
+        
+    }
+    .img-container:hover{
+        transition: 0.2s ease-in-out;
+        transform: scale(1.1);
+    }
+}
+@media (min-width:992px){
+    .skill-section{
+        height: 88.5vh;
+    }
+    .skill-section h2{
+        padding-left: 1.5rem;
+        padding-top: 4rem;
+        padding-bottom: 2rem;
+    }
+}

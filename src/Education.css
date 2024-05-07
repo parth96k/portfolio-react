@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+.education-section{
+    padding-top: 2rem;
+}
+.education-section h2{
+    font-size: 2.5rem;
+    color:  #28e98c;
+    text-transform: uppercase;
+    padding-bottom: 1rem;
+}
+.education-box{
+    /* background-color: #613528; */
+    border: 1px solid #613528;
+    position: relative;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+
+
+.cap-div div{
+    background-color:#F56539;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-graduation-cap{
+    font-size: 1.2rem;
+}
+.education-duration{
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+.education-name{
+    font-weight: bold;
+}
+
+.education-list{
+    color: #28e98c;
+    text-transform: uppercase;
+}
+.head{
+    color: #28e98c;
+    text-align: center;
+}
+
+@media (min-width:992px){
+    .education-box{
+        width: 40%;
+        height: 17.625rem;
+    }
+  .education-section{
+    height: 90.5vh;
+    position: relative;
+  }
+  .tag-education{
+    position: absolute;
+    font-size: 1.2rem;
+    width: 40px;
+    left: 0;
+    top: 9.7rem;
+    font-family: 'Cedarville Cursive', cursive;
+    color: #28e98c;
+  }
+  .fa-less-than{
+    font-size: 0.7rem;
+    font-weight: 100;
+    color: #28e98c;
+    padding-top: 0.3rem;
+    padding-right: 2px;
+  }
+  .tag-education-close{
+    position: absolute;
+    width: 40px;
+    font-size: 1.2rem;
+    font-family: 'Cedarville Cursive', cursive;
+    color: #28e98c;
+    bottom: 8.5rem;
+    right: 3rem;
+  }
+  .fa-greater-than{
+    font-size: 0.7rem;
+    font-weight: 100;
+    color: #28e98c;
+    padding-top: 0.6rem;
+    padding-left: 4px;
+  }
+  .education-box:hover{
+    box-shadow:2px 4px #28e98c50;
+    transform: scale(1.02);
+    transition: 0.4s ease-in-out;
+  }
+}
+
+@media (min-width:1440px){
+    .education-section{
+        height: 88.5vh;
+        position: relative;
+      }
+      .tag-education{
+        position: absolute;
+        width: 40px;
+        left: 0;
+        top: 9rem;
+      }
+      .tag-education-close{
+        position: absolute;
+        width: 40px;
+        bottom: 7.9rem;
+        right: 3rem;
+      }
+}
